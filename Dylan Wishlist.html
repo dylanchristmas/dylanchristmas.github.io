@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dylan's Wishlist</title>
+	<link rel="icon" href="https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Gifts-and-Chocolates-PNG-/Christmas_Gift_Box_Green_Transparent_PNG_Clip_Art.png?m=1507172110" type="image/png"> <!-- Favicon -->
+    <style>
+        body {
+            background-color: #E04A31; /* Deep red background */
+            font-family: Verdana, Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: #4EAB5C; /* Green header background */
+            color: #FFFFFF; /* White text color */
+            padding: 20px;
+            margin: 0;
+        }
+
+        .wishlist-container {
+            background-color: #FFDDC1; /* Light peach background for the wishlist */
+            border: 2px solid #FF8D5C; /* Light red border */
+            padding: 20px;
+            margin: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Center items horizontally */
+        }
+
+        label, a {
+            color: #E04A31; /* Deep red text color */
+            text-decoration: none;
+        }
+
+        a {
+            color: #8B0000; /* Dark red link color */
+            text-decoration: none;
+        }
+
+        .price {
+            color: #4EAB5C; /* Green text color */
+            font-weight: bold;
+        }
+
+        .price-label {
+            color: #4EAB5C; /* Green text color for price labels */
+            font-weight: bold;
+        }
+
+        .totals {
+            background-color: #4EAB5C; /* Green background for the total section */
+            color: #FFFFFF; /* White text color */
+            padding: 10px;
+            border: 2px solid #FF8D5C; /* Light red border */
+        }
+
+        /* Normal checkboxes */
+        input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dylan's Wishlist</h1>
+    <div class="wishlist-container">
+        <ul>
+            <li>
+                <input type="checkbox" id="item1" name="gift1" data-price="75.00">
+                <label for="item1">Vans Knu Skool</label>
+                <a href="https://www.vans.com/en-us/shoes-c00081/knu-skool-shoe-pvn0009qc6bt" target="_blank"> (link)</a>
+                <span class="price">$75.00</span>
+            </li>
+            <li>
+                <input type="checkbox" id="item2" name="gift2" data-price="15.98">
+                <label for="item2">Nunchucks</label>
+                <a href="https://a.co/d/1WejYyI" target="_blank"> (link)</a>
+                <span class="price">$15.98</span>
+            </li>
+            <li>
+                <input type="checkbox" id="item3" name="gift3" data-price="10.00">
+                <label for "item3">Batman Money Clip</label>
+                <a href="https://a.co/d/j2WBfRT" target="_blank"> (link)</a>
+                <span class="price">$10.00</span>
+            </li>
+			<li>
+                <input type="checkbox" id="item4" name="gift4" data-price="27.00">
+                <label for "item4">New Microphone with Arm</label>
+                <a href="https://www.amazon.com/dp/B0C54XV3FH/" target="_blank"> (link)</a>
+                <span class="price">$27.00</span>
+            </li>
+			<li>
+                <input type="checkbox" id="item5" name="gift5" data-price="44.55">
+                <label for "item5">SNORK! Honk shoo honk shoo me me me me me me pajam</label>
+                <a href="https://list2go.io/en/list/-Njp6tUEhQM-8ajtTcyT" target="_blank"> (link)</a>
+                <span class="price">$44.55</span>
+            </li>
+			<li>
+                <input type="checkbox" id="item6" name="gift6" data-price="40.00">
+                <label for "item6">	Nickitten Baggy Jeans</label>
+                <a href="https://nickitten.com/products/gray-baggy-denim" target="_blank"> (link)</a>
+                <span class="price">$40.00</span>
+            </li>
+			<li>
+                <input type="checkbox" id="item7" name="gift7" data-price="12.00">
+                <label for "item7">Purge Trooper Funko Pop</label>
+                <a href="https://funko.com/pop-purge-trooper-battle-pose/67587.html" target="_blank"> (link)</a>
+                <span class="price">$12.00</span>
+            </li>
+			<li>
+                <input type="checkbox" id="item8" name="gift8" data-price="20.00">
+                <label for "item8">Lego Ferrari Speed Champions Set</label>
+                <a href="https://www.amazon.com/dp/B0BLJ478M7/" target="_blank"> (link)</a>
+                <span class="price">$20.00</span>
+            </li>
+			<li>
+                <input type="checkbox" id="item9" name="gift9" data-price="10.00">
+                <label for "item9">Grappling Hook >:) </label>
+                <a href="https://www.amazon.com/dp/B09GJTK2KM/" target="_blank"> (link)</a>
+                <span class="price">$10.00</span>
+            </li>
+			<li>
+                <input type="checkbox" id="item9" name="gift9" data-price="7.50">
+                <label for "item9">Nerf Disruptor Pistol</label>
+                <a href="https://www.amazon.com/dp/B01JJ5KFMY/" target="_blank"> (link)</a>
+                <span class="price">$7.50</span>
+            </li>
+			<li>
+                <input type="checkbox" id="item10" name="gift10" data-price="87.00">
+                <label for "item10">Epomaker 75% Black-Gray Keyboard w/ Yellow Switches</label>
+                <a href="https://epomaker.com/products/epomaker-ep84?variant=39358415110217" target="_blank"> (link)</a>
+                <span class="price">$87.00</span>
+            </li>
+			<li>
+                <input type="checkbox" id="item11" name="gift11" data-price="14.79">
+                <label for "item11">Black Keyboard Coiled Cable</label>
+                <a href="https://www.amazon.com/dp/B0BJTR98PC/?th=1" target="_blank"> (link)</a>
+                <span class="price">$14.79</span>
+			</li>
+			<li>
+                <input type="checkbox" id="item12" name="gift12" data-price="8.99">
+                <label for "item12">Chicken Leg Socks</label>
+                <a href="https://www.amazon.com/dp/B0BJTR98PC/?th=1" target="_blank"> (link)</a>
+                <span class="price">$8.99</span>
+			</li>
+            <!-- Add more items as needed -->
+        </ul>
+    </div>
+    <div class="totals">
+        <h2>Total Price: $<span id="totalPrice">0.00</span></h2>
+        <h2>Selected Price (tax): $<span id="selectedPrice">0.00</span></h2>
+    </div>
+    <script>
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        const totalPriceElement = document.getElementById("totalPrice");
+        const selectedPriceElement = document.getElementById("selectedPrice");
+        
+        // Calculate the total price initially
+        let initialTotalPrice = 0;
+        checkboxes.forEach((checkbox) => {
+            initialTotalPrice += parseFloat(checkbox.getAttribute("data-price"));
+        });
+        totalPriceElement.textContent = initialTotalPrice.toFixed(2);
+
+        checkboxes.forEach((checkbox) => {
+            checkbox.addEventListener("change", () => {
+                calculateSelectedPrice();
+            });
+        });
+
+        function calculateSelectedPrice() {
+            let selectedTotal = 0;
+            checkboxes.forEach((checkbox) => {
+                if (checkbox.checked) {
+                    selectedTotal += parseFloat(checkbox.getAttribute("data-price"));
+                }
+            });
+            
+            const taxRate = 0.0503; // 5.03% tax rate
+            const taxedSelectedPrice = selectedTotal * (1 + taxRate);
+            selectedPriceElement.textContent = taxedSelectedPrice.toFixed(2);
+        }
+    </script>
+</body>
+</html>
